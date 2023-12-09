@@ -8,20 +8,22 @@
 </head>
 <body>
     <div class="div-centralizada">
-        <form class="form-control" action="">
+        <form class="form-control" action="" id="login-form">
             <p class="title">Login</p>
             <div class="input-field">
-              <input required="" class="input" type="text" />
-              <label class="label" for="input">Enter Email</label>
+              <input required="" class="input" type="text" id="username"/>
+              <label class="label" for="input">Email</label>
             </div>
             <div class="input-field">
-              <input required="" class="input" type="password" />
-              <label class="label" for="input">Enter Password</label>
+              <input required="" class="input" type="password" id="password"/>
+              <label class="label" for="input">Senha</label>
             </div>
-            <a>Forgot your password?</a>
-            <button class="submit-btn">Sign In</button>
+            <a href="#">Esqueceu sua senha?</a>
+            <button class="submit-btn" onclick="login()">Acessar</button>
           </form>
     </div>
+
+    
       
     
 </body>
