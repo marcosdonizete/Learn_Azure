@@ -11,3 +11,8 @@ function login() {
         alert('Credenciais inválidas. Tente novamente.');
     }
 }
+
+document.getElementById('login-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Impede o envio padrão do formulário
+    login(); // Chama a função login() ao submeter o formulário
+});
